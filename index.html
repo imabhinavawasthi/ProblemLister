@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Lister</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+    <Header>
+        <h1>Problem Lister</h1>
+    </Header>
+    <form>
+        <input type="text" class="problem-input" placeholder="Enter Problem">
+        <button class="problem-button" type="submit"><i class="fas fa-plus-square"></i></button>
+        <div class="select">
+            <select name="problems" class="filter-problems">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="problem-container">
+        <ul class="problem-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
