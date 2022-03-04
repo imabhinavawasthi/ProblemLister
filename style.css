@@ -72,10 +72,20 @@ form button:hover{
 
 .problem li{
   flex: 1;
+  min-width: 15rem;
 }
 
 .btnadd{
   width:2.5rem;
+}
+
+a{
+  width: 2.5rem;
+}
+
+.problem .logoimg{
+  width:2.5rem;
+  height:100%;
 }
 
 .btntrash{
@@ -106,7 +116,7 @@ form button:hover{
 }
 
 
-.fa-trash, .fa-check{
+.fa-trash, .fa-link{
   pointer-events: none;
 }
 
